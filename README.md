@@ -1,24 +1,29 @@
-# README
+This is BackEnd for the project DreamCatcher. The FrontEnd is here: https://github.com/Elena-Weber/DreamCatcher
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a single page application (SPA).
 
-Things you may want to cover:
+Installation
 
-* Ruby version
+Fork the project's backend from https://github.com/Elena-Weber/DreamCatcher. To install all the gems necessary, execute in your terminal:
+$ bundle install
 
-* System dependencies
+Migrate the database:
+$ rails db:migrate
 
-* Configuration
+Seed the database:
+$ rails db:seed
 
-* Database creation
+Usage
 
-* Database initialization
+To start the server, run in your terminal:
+$ rails s
 
-* How to run the test suite
+Open up a new tab in your browser (Chrome is recommended) and go to this page http://localhost:3000/. If you see a greeting from Rails, the server for backend has been started successfully. If you go to http://localhost:3000/dreams, you'll see the dreams API of the project. To stop the server, while in your terminal, press Control+C (for MacBook).
 
-* Services (job queues, cache servers, search engines, etc.)
+Contributing
 
-* Deployment instructions
+Bug reports and pull requests are welcome on GitHub at https://github.com/Elena-Weber/DreamCatcher-BE. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the code of conduct.
 
-* ...
+License
+
+The program is available as open source under the terms of the MIT License.
