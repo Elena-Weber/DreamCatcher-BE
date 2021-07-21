@@ -47,7 +47,6 @@ class DreamsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def dream_params
-      # params.require(:dream).permit(:id, :name, :description, :chosen, :created_at, :updated_at)
       params.require(:dream).permit(:name, :description, :chosen)
     
     end
