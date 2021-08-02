@@ -1,6 +1,10 @@
-This is BackEnd for the project DreamCatcher. The FrontEnd is here: https://github.com/Elena-Weber/DreamCatcher
+This is BackEnd for the project DreamCatcher.
 
-This is a single page application (SPA).
+The FrontEnd is here:
+https://github.com/Elena-Weber/DreamCatcher
+
+Video demo is here:
+https://youtu.be/WLQMcfGlIHo
 
 Installation
 
